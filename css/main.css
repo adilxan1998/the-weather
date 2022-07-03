@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'Aladin';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/aladin-v18-latin-regular.woff2') format('woff2'),
+       url('../fonts/aladin-v18-latin-regular.woff') format('woff'); 
+}
+
+body {
+  background-image: url(../img/site-img.jpg);
+  background-repeat: no-repeat;
+}
+
+.box_inner {
+  width: 700px;
+  height: 400px;
+  /* background-color: #fff; */
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  
+}
+
+.form_input {
+  width: 400px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  border: solid 2px #5B8519FF;
+}
+
+.wrapper {
+  margin-top: 50px;
+}
+
+.box_title {
+  font-family: "Aladin";
+  font-size: 42px;
+}
+
+.box_text {
+  font-family: "Aladin";
+  font-size: 30px;
+}
